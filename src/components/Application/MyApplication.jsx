@@ -18,7 +18,7 @@ const MyApplication = () => {
       if (user && user.role === "Employer") {
         axios
           .get(
-            "https://job-seeking-backend-deployment-r878.onrender.com/api/v1/application/employer/getall",
+            "https://job-seeking-backend-deploymen.onrender.com/api/v1/application/employer/getall",
             {
               withCredentials: true,
             }
@@ -29,7 +29,7 @@ const MyApplication = () => {
       } else {
         axios
           .get(
-            "https://job-seeking-backend-deployment-r878.onrender.com/api/v1/application/jobseeker/getall",
+            "https://job-seeking-backend-deploymen.onrender.com/api/v1/application/jobseeker/getall",
             {
               withCredentials: true,
             }
@@ -51,7 +51,7 @@ const MyApplication = () => {
     try {
       await axios
         .delete(
-          `https://job-seeking-backend-deployment-r878.onrender.com/api/v1/application/delete/${id}`,
+          `https://job-seeking-backend-deploymen.onrender.com/api/v1/application/delete/${id}`,
           {
             withCredentials: true,
           }

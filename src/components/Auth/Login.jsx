@@ -17,7 +17,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://job-seeking-backend-deployment-r878.onrender.com/api/v1/user/login",
+        "https://job-seeking-backend-deploymen.onrender.com/api/v1/user/login",
         { email, password, role },
         {
           withCredentials: true,

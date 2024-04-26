@@ -12,7 +12,7 @@ const Jobs = () => {
     try {
       axios
         .get(
-          "https://job-seeking-backend-deployment-r878.onrender.com/api/v1/job/getall",
+          "https://job-seeking-backend-deploymen.onrender.com/api/v1/job/getall",
           {
             withCredentials: true,
           }
